@@ -32,6 +32,8 @@ This project implements a CNN-based classifier trained on the RAVDESS (Ryerson A
     └── Actor_24/
 ```
 
+**Note**: The `RavdessData/` directory is git-ignored and not included in the repository. Users must download it separately to run the notebook.
+
 ## Dataset
 
 **RAVDESS Dataset Specifications**
@@ -82,9 +84,11 @@ The RAVDESS dataset can be downloaded from: https://zenodo.org/record/1188976
    ```
 
 5. Prepare dataset directory:
-   - Download RAVDESS dataset from https://zenodo.org/record/1188976
-   - Extract files into the `RavdessData/` folder
-   - Verify folder structure: `RavdessData/Actor_01/`, `RavdessData/Actor_02/`, etc.
+   - The RAVDESS dataset is NOT included in this repository (git-ignored for size optimization)
+   - Download the dataset from https://zenodo.org/record/1188976
+   - Extract files into the `RavdessData/` folder in the project root
+   - Verify folder structure: `RavdessData/Actor_01/`, `RavdessData/Actor_02/`, ..., `RavdessData/Actor_24/`
+   - The directory will be automatically recognized by the notebook
 
 ## Usage
 
