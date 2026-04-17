@@ -41,9 +41,9 @@ The system extracts features from voice recordings and uses a trained model to c
 
 | Confusion Matrix | 
 |------------------|
-| <img src="assets/confusion_matrix.png" width="800"/> |
+| <img src="assets/confusion_matrix.png" width="1000"/> |
 | Accuracy & Loss Graph |
-| <img src="assets/output.png" width="800"/> |
+| <img src="assets/output.png" width="1000"/> |
 
 </div>
 
